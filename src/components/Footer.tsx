@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -15,38 +16,38 @@ const Footer = () => {
         <dl>
           <dt>Landings</dt>
           <dd className='date'>
-            <a href=''>Products</a>
+            <Link href='/'>Products</Link>
           </dd>
           <dd className='date'>
-            <a href=''>Home</a>
+            <Link href='/'>Home</Link>
           </dd>
           <dd className='date'>
-            <a href=''>Services</a>
+            <Link href='/'>Services</Link>
           </dd>
         </dl>
         <dl>
           <dt>Company</dt>
           <dd className='date'>
-            <a href=''>Home</a>
+            <Link href='/'>Home</Link>
           </dd>
           <dd className='date'>
-            <a href=''>Career </a>
+            <Link href='/'>Career </Link>
             <span className='hiringBadge'>Hiring!</span>
           </dd>
           <dd className='date'>
-            <a href=''>Services</a>
+            <Link href='/'>Services</Link>
           </dd>
         </dl>
         <dl>
           <dt>Resources</dt>
           <dd className='date'>
-            <a href=''>Blog</a>
+            <Link href='/'>Blog</Link>
           </dd>
           <dd className='date'>
-            <a href=''>Products</a>
+            <Link href='/'>Products</Link>
           </dd>
           <dd className='date'>
-            <a href=''>Services</a>
+            <Link href='/'>Services</Link>
           </dd>
         </dl>
       </div>
