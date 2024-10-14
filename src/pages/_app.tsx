@@ -11,7 +11,7 @@ const manrope = Manrope({
 const openSans = Open_Sans({
   subsets: ['latin'],
   variable: '--header-font-family',
-  weight: '400',
+  weight: ['400', '700'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
