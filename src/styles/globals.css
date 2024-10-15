@@ -77,7 +77,7 @@ h1 {
   font-weight: 300;
 }
 
-.nav {
+.desktopNav {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -99,7 +99,7 @@ h1 {
   gap: 10px;
 }
 
-nav ul {
+.desktopNav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,7 +108,7 @@ nav ul {
   max-width: 419px;
 }
 
-nav li a:hover {
+.desktopNav li a:hover {
   text-decoration: underline;
 }
 
@@ -125,10 +125,35 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  nav ul {
+  .desktopNav ul {
     display: none;
   }
 }
+
+.mobileNav .navMenuContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.navMenuContainer>button {
+  appearance: none;
+  border: none;
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mobileNav ul {
+  transition: all 0.3s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
 
 .loginBtn {
   padding: 8px 40px;
