@@ -9,8 +9,6 @@ const Navbar = () => {
 
   const [showMenu, setShowMenu] = React.useState(false);
 
-  console.log({ showMenu });
-
   if (width && width > 500) {
     return (
       <nav className='desktopNav'>
